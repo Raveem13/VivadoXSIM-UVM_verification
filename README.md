@@ -123,8 +123,8 @@ xvlog -sv -L uvm -f filelist.f
 ```
 
 📌`-L uvm` is NOT required for pure System Verilog. 
-📌`-L uvm` tells Vivado to link against its **built-in UVM library**.
 
+📌`-L uvm` tells Vivado to link against its **built-in UVM library**.
 Without it:
 * `uvm_component`, `uvm_test`, `uvm_env` are **undefined**
 * Compilation **fails**
@@ -171,6 +171,7 @@ Simulation runs until:
 ## 📊 Functional Coverage Flow (XSIM)
 
 XSIM supports **functional coverage collection** and **HTML report generation** using `xcrg` [(Xilinx Coverage Report Generator)](https://docs.amd.com/r/en-US/ug937-vivado-design-suite-simulation-tutorial/Functional-Coverage)
+
 ---
 
 ### ✔ Run simulation with explicit coverage directory
@@ -232,7 +233,7 @@ The report includes:
 
 ---
 
-## 🧪 Notes
+## ⚠️ Notes
 
 * UVM simulations may **block intentionally** depending on testbench behavior
 * Hanging simulations can indicate:
