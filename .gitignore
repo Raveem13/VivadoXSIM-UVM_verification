@@ -36,8 +36,9 @@ covdb_*/
 # Reports / temporary
 # =========================
 
-# reports/
-# *.html
+reports/
+*.html
+*.css
 # *.xml
 # *.json
 
