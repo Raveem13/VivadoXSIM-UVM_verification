@@ -177,10 +177,7 @@ XSIM supports **functional coverage collection** and **HTML report generation** 
 ### ✔ Run simulation with explicit coverage directory
 
 ```bash
-xsim top \
-  -sv_seed random \
-  -cov_db_dir covdb_run_01 \
-  -runall
+xsim top -sv_seed random -cov_db_dir covdb_run_01 runall
 ```
 
 #### 📌 Why explicit coverage directories matter
@@ -208,10 +205,7 @@ mkdir reports/run_01
 #### 2️⃣ Generate report
 
 ```bash
-xcrg \
-  -report_format html \
-  -dir covdb_run_01 \
-  -report_dir reports/run_01
+xcrg -report_format html -dir covdb_run_01 -report_dir reports/run_01
 ```
 
 ---
