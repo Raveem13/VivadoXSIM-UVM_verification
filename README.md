@@ -210,6 +210,7 @@ mkdir reports/run_01
 xcrg -report_format html -dir covdb_run_01 -report_dir reports/run_01
 ```
 * It creates the following files.
+
 ![xcrg web files](assets/02_xcrg_files.png)
 
 ---
@@ -231,7 +232,9 @@ The report includes:
 * Coverage percentage summary
 
 Example xcrg html report view:
+
 ![XCRG html report view](assets/03_xcrg_html_view.png)
+
 ---
 
 ## ⚠️ Notes
