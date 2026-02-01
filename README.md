@@ -44,7 +44,7 @@ During installation, ensure:
 
 ## ⚙ Environment Setup
 
-### Windows
+### 🪟Windows
 
 **Vivado bin directory added to PATH**
 * Check Vivado/bin path added to your environment variables.
@@ -60,7 +60,7 @@ All required tools (`xvlog`, `xelab`, `xsim`) are pre-configured.
 
 ---
 
-### Linux
+### 🐧Linux
 
 Source the Vivado settings script before running any command:
 
@@ -86,7 +86,7 @@ xvlog -version
 xelab -version
 xsim -version
 ```
-Expected output :
+Expected CLI output :
 ![Tools version check](assets/01vivado_xsim_ver_check_op.png)
 
 If any command is not found, the environment is not sourced correctly.
@@ -160,11 +160,13 @@ xsim% run all
 xsim% exit
 ```
 
-📌 `-sv_seed random` is used incase of Randomization.
+📌 `-sv_seed random` is used to seed Randomization.
 
 Simulation runs until:
 * `$finish`, or
 * all UVM objections are dropped
+
+*Coverage database saved in Default directory: `xsim.covdb`*
 
 ---
 
@@ -207,6 +209,8 @@ mkdir reports/run_01
 ```bash
 xcrg -report_format html -dir covdb_run_01 -report_dir reports/run_01
 ```
+* It creates the following files.
+![xcrg web files](assets/02_xcrg_files.png)
 
 ---
 
@@ -217,6 +221,7 @@ Open in a browser:
 ```text
 reports/run_01/dashboard.html
 ```
+Go to `Groups -> Check group in Name column -> Instance`
 
 The report includes:
 
@@ -225,6 +230,8 @@ The report includes:
 * Hit/miss statistics
 * Coverage percentage summary
 
+Example xcrg html report view:
+![XCRG html report view](assets/03_xcrg_html_view.png)
 ---
 
 ## ⚠️ Notes
@@ -259,4 +266,5 @@ This setup is suitable for:
 ---
 
 > Note: Vivado™ and XSIM™ are trademarks of AMD/Xilinx.
+
 > This repository is for educational and verification practice purposes only.
