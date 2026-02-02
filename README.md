@@ -8,6 +8,15 @@ The project is structured as multiple folders representing incremental learning,
 
 ---
 
+## Highlights
+- End-to-end UVM verification flow on Vivado XSIM
+- Blocking scoreboard using analysis FIFOs
+- Predictor-based expected modeling
+- Failure-mode driven verification (missing/extra/lag)
+- Phase-aligned transaction sampling
+
+---
+
 # Vivado XSIM – Installation, Setup & Simulation Flow
 
 This document describes how to install **Xilinx Vivado**, verify the setup, and run **SystemVerilog / UVM simulations using XSIM**, including coverage generation.
