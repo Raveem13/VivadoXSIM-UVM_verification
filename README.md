@@ -11,6 +11,7 @@ The project is structured as multiple folders representing incremental learning,
 ## Highlights
 - End-to-end UVM verification flow on Vivado XSIM
 - Blocking scoreboard using analysis FIFOs
+- Factory and Config DB
 - Predictor-based expected modeling
 - Failure-mode driven verification (missing/extra/lag)
 - Phase-aligned transaction sampling
