@@ -182,7 +182,9 @@ Simulation runs until:
 
 ## 📊 Functional Coverage Flow (XSIM)
 
-XSIM supports **functional coverage collection** and **HTML report generation** using `xcrg` [(Xilinx Coverage Report Generator)](https://docs.amd.com/r/en-US/ug937-vivado-design-suite-simulation-tutorial/Functional-Coverage)
+XSIM supports **functional coverage collection** and **HTML report generation** using `xcrg`(Xilinx Coverage Report Generator).
+
+More about `xcrg`, refer [UG937].(https://docs.amd.com/r/en-US/ug937-vivado-design-suite-simulation-tutorial/Functional-Coverage)
 
 ---
 
