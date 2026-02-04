@@ -278,6 +278,11 @@ This setup is suitable for:
 
 ---
 
+## Show your support
+Give a ⭐️ if this repo helped you!
+
+---
+
 > Note: Vivado™ and XSIM™ are trademarks of AMD/Xilinx.
 
 > This repository is for educational and verification practice purposes only.
