@@ -1,4 +1,4 @@
-# 👨‍💻 SystemVerilog UVM Verification using Xilinx Vivado XSIM
+# SystemVerilog UVM Verification using Xilinx Vivado XSIM
 
 This repository contains **SystemVerilog + UVM–based verification environments** simulated using **Xilinx Vivado XSIM**.
 It demonstrates **industry-correct UVM compile flow**, **functional coverage generation**, and **regression-ready practices**.
@@ -36,7 +36,7 @@ This README is **tool-focused** and applies to any Vivado-based verification pro
 
 ---
 
-## ⏬ Vivado Installation
+## Vivado Installation
 
 ### 1️⃣ Download Vivado
 
@@ -269,7 +269,7 @@ Example xcrg html report view:
     (Check docs [*UG900*](https://docs.amd.com/r/en-US/ug900-vivado-logic-simulation/Universal-Verification-Methodology-UVM-Support) for UVM features supported, by AMD Vivado)
 ---
 
-## ✅ Purpose
+## Purpose
 
 This setup is suitable for:
 
